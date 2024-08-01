@@ -70,5 +70,13 @@ def calcular_comissoes():
     comissoes = handler.calcular_comissoes(path)
     return jsonify(comissoes)
 
+@app.route('/volume-e-media-vendas', methods=['POST'])
+def volume_e_media_vendas():
+    data = request.get_json()
+    path = data.get('path')
+    handler = PlanilhaHandler()
+    volume_e_media = handler.calcular_volume_e_media_vendas(path)
+    return jsonify(volume_e_media)
+
 if __name__ == '__main__':
     app.run(debug=True)
