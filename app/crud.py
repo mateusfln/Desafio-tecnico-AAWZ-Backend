@@ -3,8 +3,8 @@ from .db import SessionLocal
 from datetime import datetime
 
 class GerenciadorVendedores:
-    def __init__(self):
-        self.db = SessionLocal()
+    def __init__(self, db_session=None):
+        self.db = db_session or SessionLocal()
 
     def create_vendedor(self, nome, cpf, data_nascimento, email, estado):
         if self.get_vendedor_by_cpf(cpf):
