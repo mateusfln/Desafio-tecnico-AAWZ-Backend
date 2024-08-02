@@ -4,10 +4,11 @@
 Este projeto foi desenvolvido para o desafio técnico da AAWZ, com o objetivo de criar um sistema de gerenciamento de vendedores e cálculos de comissões.
 
 ## Tecnologias Utilizadas
-- Python
+- Python3
 - Flask
 - SQLAlchemy
 - Pandas
+- Pytest
 - SQLite
 
 ## Instruções de Execução
@@ -32,14 +33,24 @@ Este projeto foi desenvolvido para o desafio técnico da AAWZ, com o objetivo de
     ```sh
     pip install sqlalchemy
     ```
+    ```sh
+    pip install pytest
+    ```
+    ```sh
+    pip install openpyxl
+    ```
 
 ### Executando a Aplicação
 1. Inicie o servidor Flask:
     ```sh
-    python run.py
+    python3 run.py
     ```
 
 2. Acesse a API através de `http://localhost:5000`.
+
+### Testar API:
+##### Sugiro que realize o teste da api utilizando o postman.
+##### existe um arquivo com todos os endpoints prontos para o teste na raiz do projeto
 
 ### Endpoints Disponíveis
 - `GET /vendedores` - Retorna todos os vendedores registrados.
