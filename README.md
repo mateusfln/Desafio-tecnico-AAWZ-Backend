@@ -46,7 +46,7 @@ Este projeto foi desenvolvido para o desafio técnico da AAWZ, com o objetivo de
 2. Acesse a API através de `http://localhost:5000`.
 
 ### Testar API:
-##### Sugiro que realize o teste da api utilizando o postaman.
+##### Sugiro que realize o teste da api utilizando o postman.
 ##### existe um arquivo com todos os endpoints prontos para o teste na raiz do projeto
 
 ### Endpoints Disponíveis
