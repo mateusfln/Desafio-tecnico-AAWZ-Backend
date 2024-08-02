@@ -17,8 +17,12 @@ Este projeto foi desenvolvido para o desafio técnico da AAWZ, com o objetivo de
     ```sh
     git clone https://github.com/mateusfln/Desafio-tecnico-AAWZ-Backend
     ```
+    e entre na pasta do projeto
+    ```sh
+    cd Desafio-tecnico-AAWZ-Backend
+    ```
 
-2. Instale as dependências:
+3. Instale as dependências:
     ```sh
     pip install pandas
     ```
